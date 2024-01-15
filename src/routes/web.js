@@ -15,6 +15,6 @@ router.get("/abc", getABC);
 
 router.get("/home", getHome);
 
-router.get("/create-user", postCreateUser);
+router.post("/create-user", postCreateUser);
 
 module.exports = router;
